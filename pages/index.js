@@ -26,10 +26,6 @@ export default () => {
             return false;
         }
 
-        if (!data.name || data.name.length == 0) {
-            return false;
-        }
-
         if (data.value == null || data.value <= 0) {
             return false;
         }
